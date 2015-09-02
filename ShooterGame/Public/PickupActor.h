@@ -23,7 +23,7 @@ public:
 	//JoyControl
 	UStaticMeshComponent* JoyfulControl;
 
-	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Mesh)
 	UStaticMesh * AssetSM_JoyControl;
 
 	FORCEINLINE void SetupSMComponentsWithCollision(UStaticMeshComponent* Comp)

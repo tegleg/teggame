@@ -9,7 +9,7 @@ APickupActor::APickupActor(const FObjectInitializer& ObjectInitializer)
 	: Super(ObjectInitializer)
 {
 	//Asset, Reference Obtained Via Right Click in Editor
-	static ConstructorHelpers::FObjectFinder<UStaticMesh> StaticMeshOb_AW2(TEXT("StaticMesh'/Game/'"));
+	static ConstructorHelpers::FObjectFinder<UStaticMesh> StaticMeshOb_AW2(TEXT("StaticMesh'/Game/UMGDemo/Meshes/New/InvMeshes_Coneup.InvMeshes_Coneup'"));
 
 	AssetSM_JoyControl = StaticMeshOb_AW2.Object;
 
